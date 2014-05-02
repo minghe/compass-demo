@@ -1,0 +1,14 @@
+{
+  "name": "compass",
+  "version": "1.0.0",
+  "description": "this is an compass project",
+  "main": "index.js",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-compass": "~0.7.2"
+  }
+}

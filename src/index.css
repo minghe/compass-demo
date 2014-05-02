@@ -1,0 +1,6 @@
+/* line 1, mods/header.sass */
+header {
+  border: 1px solid #cccccc;
+  padding: 20px;
+  font-size: 14px;
+}
