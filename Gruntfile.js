@@ -29,7 +29,8 @@ module.exports = function (grunt) {
                 options: {
                     sassDir: '<%= srcBase %>',
                     specify: '<%= srcBase %>/index.sass',
-                    cssDir : '<%= srcBase %>'
+                    cssDir : '<%= srcBase %>',
+                    assetCacheBuster: false
                 }
             }
         },
@@ -43,9 +44,12 @@ module.exports = function (grunt) {
             }
         },
         watch: {
+            options: {
+                livereload: true
+            },
             compass: {
                 files: ['<%= srcBase %>/**/*.sass'],
-                tasks: ['compass', 'cssmin']
+                tasks: ['compass']
             }
         }
     });
@@ -59,5 +63,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
 
     grunt.registerTask('default', ['clean','compass','copy:all','cssmin:build']);
+    grunt.registerTask('dev', ['watch']);
 
 };
