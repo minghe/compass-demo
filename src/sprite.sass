@@ -1,0 +1,11 @@
+$s-spacing: 20px
+$s-sprite-dimensions: true
+@import "s/*.png"
+@include all-s-sprites
+
+.clock-wrapper
+  width: image-width("s/clock.png")
+  height: image-height("s/clock.png")
+
+    .line-image
+      background-image: inline-image("s/clock.png")

@@ -32,6 +32,16 @@ module.exports = function (grunt) {
                     cssDir : '<%= srcBase %>',
                     assetCacheBuster: false
                 }
+            },
+            sprite: {
+                options: {
+                    sassDir: '<%= srcBase %>',
+                    specify: '<%= srcBase %>/sprite.sass',
+                    cssDir : '<%= srcBase %>',
+                    imagesDir: "<%= srcBase %>/images",
+                    httpPath:"http://www.36ria.com/css",
+                    assetCacheBuster: false
+                }
             }
         },
         cssmin: {
