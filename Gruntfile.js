@@ -42,6 +42,15 @@ module.exports = function (grunt) {
                     httpPath:"http://www.36ria.com/css",
                     assetCacheBuster: false
                 }
+            },
+            spriteX2: {
+                options: {
+                    sassDir: '<%= srcBase %>',
+                    specify: '<%= srcBase %>/sprite-x2.sass',
+                    cssDir : '<%= srcBase %>',
+                    imagesDir: "<%= srcBase %>/images",
+                    assetCacheBuster: false
+                }
             }
         },
         cssmin: {
@@ -74,5 +83,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('default', ['clean','compass','copy:all','cssmin:build']);
     grunt.registerTask('dev', ['watch']);
+    grunt.registerTask('sprite', ['compass:spriteX2']);
 
 };

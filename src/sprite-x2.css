@@ -1,0 +1,11 @@
+/* line 14, sprite-x2.sass */
+        .s-adults {
+          display: block;
+          height: 17px;
+          width: 80px;
+          background-position: 0 -82px;
+          background: url('/src/images/s-sda1755b835.png');
+          background-image: -webkit-image-set(url('/src/images/s-sda1755b835.png') 1x, url('/src/images/s-x2-s1d399be72c.png') 2x);
+          background-image: -moz-image-set(url('/src/images/s-sda1755b835.png') 1x, url('/src/images/s-x2-s1d399be72c.png') 2x);
+          background-image: -ms-image-set(url('/src/images/s-sda1755b835.png') 1x, url('/src/images/s-x2-s1d399be72c.png') 2x);
+        }

@@ -1,0 +1,47 @@
+/* line 74, s/*.png */
+.s-sprite, .s-adults, .s-arrow-blue, .s-clock, .s-discover-logo {
+  background: url('http://www.36ria.com/css/src/images/s-s8b7f289b04.png') no-repeat;
+}
+
+/* line 60, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.s-adults {
+  background-position: 0 -60px;
+  height: 17px;
+  width: 80px;
+}
+/* line 43, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.s-adults:hover, .s-adults.adults_hover, .s-adults.adults-hover {
+  background-position: 0 -97px;
+}
+
+/* line 60, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.s-arrow-blue {
+  background-position: 0 -134px;
+  height: 15px;
+  width: 15px;
+}
+
+/* line 60, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.s-clock {
+  background-position: 0 -169px;
+  height: 10px;
+  width: 10px;
+}
+
+/* line 60, ../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.s-discover-logo {
+  background-position: 0 0;
+  height: 40px;
+  width: 40px;
+}
+
+/* line 6, sprite.sass */
+.clock-wrapper {
+  width: 10px;
+  height: 10px;
+}
+
+/* line 10, sprite.sass */
+.line-image {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAJUExURd7e3jo6Ov///2aV1WYAAAArSURBVHjaYmBihAImBkYGJjAAMhiBFAgz4WUCNUGZTAhRGBNhGMIKgAADACFjAJu95pwTAAAAAElFTkSuQmCC');
+}

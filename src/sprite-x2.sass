@@ -1,0 +1,18 @@
+$sprites: sprite-map("s/*.png",  $layout: diagonal)            // import 1x sprites
+$sprites-x2: sprite-map("s-x2/*.png", $layout: diagonal)   // import 2x sprites
+
+@mixin image-set($name)
+  display: block
+  height: image-height(sprite-file($sprites, $name))
+  width: image-width(sprite-file($sprites, $name))
+  background-position: sprite-position($sprites, $name)
+  background: sprite-url($sprites)
+  background-image: -webkit-image-set(sprite-url($sprites) 1x, sprite-url($sprites-x2) 2x)
+  background-image: -moz-image-set(sprite-url($sprites) 1x, sprite-url($sprites-x2) 2x)
+  background-image: -ms-image-set(sprite-url($sprites) 1x, sprite-url($sprites-x2) 2x)
+
+.s-adults
+  +image-set(adults)
+
+
+
